@@ -1,0 +1,65 @@
+.insights {
+
+	#insights-hero {
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 40vw;
+		// padding: 30px;
+		padding: 5% 15%;
+		position: relative;
+		width: 100%;
+
+		h1 {
+			@media (max-width: 400px) {
+				font-size: 28px;
+			}
+
+			color: white;
+			font-size: 52px;
+			font-weight: 500;
+			max-width: 580px;
+
+		}
+
+		a {
+			@media (max-width: 400px) {
+				padding: 10px 20px;
+			}
+
+			background-color: $igd_color_blue;
+			color: white;
+			font-weight: 700;
+			max-width: 230px;
+
+			&:hover {
+				background-color: $igd_color_green;
+			}
+		}
+
+	}
+
+
+	h2 {
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+
+	#insights-intro {
+		background-color: $igd_color_purple;
+		color: white;
+		font-size: 20px;
+	}
+
+
+	#insights-main-content {
+		background-color: $igd_color_mediagrey;
+		padding: 5% 15%;
+	}
+
+
+
+}

@@ -1,0 +1,135 @@
+.tour-subpage {
+
+	#tour-subpage-hero {
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 40vw;
+		// padding: 30px;
+		padding: 5% 15%;
+		position: relative;
+		width: 100%;
+
+		h1 {
+			@media (max-width: 400px) {
+				font-size: 28px;
+			}
+
+			color: white;
+			font-size: 52px;
+			font-weight: 500;
+			max-width: 580px;
+
+		}
+
+		.tour-stop-location {
+			color: white;
+			font-size: 26px;
+			font-weight: 500;
+			margin-bottom: 0;
+			text-transform: uppercase;
+		}
+
+		.tour-stop-date {
+			color: white;
+			font-size: 20px;
+			font-weight: 500;
+			margin-bottom: 0;
+			text-transform: uppercase;
+		}
+
+		a {
+			@media (max-width: 400px) {
+				padding: 10px 20px;
+			}
+
+			background-color: $igd_color_blue;
+			color: white;
+			font-weight: 700;
+			max-width: 230px;
+
+			&:hover {
+				background-color: $igd_color_green;
+			}
+		}
+
+	}
+
+
+	h2 {
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+
+	#tour-subpage-intro {
+		background-color: $igd_color_orange;
+		color: white;
+		font-size: 20px;
+	}
+
+
+	#tour-subpage-main-content {
+		background-color: $igd_color_mediagrey;
+		padding: 5% 15%;
+
+		a.button.reserve-button {
+			background-color: #524DA1;
+		    font-size: 15px;
+		    font-weight: 500;
+		    padding: 7px 15px;
+
+			&:hover {
+				background-color: $igd_color_green;
+			}
+		}
+	}
+
+	#tour-subpage-venu-location {
+		background-color: $igd_color_tourbluelight;
+		padding: 5% 15%;
+
+		h2 {
+			font-size: 24px;
+		}
+
+		.tour-subpage-venu-info {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+
+		h4 {
+			color: white;
+			font-size: 20px;
+			font-weight: 500;
+			margin-bottom: 0;
+			text-transform: uppercase;
+		}
+
+		address {
+			color: white;
+			font-size: 20px;
+			font-style: normal;
+			margin-bottom: 0;
+			text-transform: uppercase;
+		}
+
+		a.button.venue-button {
+			background-color: $igd_color_greydark;
+			color: white;
+			font-size: 12px;
+			font-weight: 700;
+			padding: 5px 10px;
+		}
+
+
+	}
+
+	iframe {
+		margin-bottom: 0;
+	}
+
+}

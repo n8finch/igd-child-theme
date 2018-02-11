@@ -1,0 +1,72 @@
+#media-feeds {
+	background-color: $igd_color_mediagrey;
+	padding: 5% 15%;
+
+	& > div {
+		margin-bottom: 60px;
+	}
+
+	div#media-soundcloud {
+		margin-bottom: 0;
+	}
+
+	a.button.media-button {
+		background-color: $igd_color_greydark;
+		color: white;
+		font-size: 12px;
+		font-weight: 700;
+		padding: 5px 10px;
+	}
+
+	.igd-rss-article {
+
+		letter-spacing: 1px;
+		padding: 10px 15px;
+		margin-bottom: 20px;
+
+
+
+		h4 {
+			font-size: 16px;
+		}
+
+		p {
+			font-size: 12px;
+			font-style: italic;
+			font-weight: 300;
+			margin-bottom: 0;
+		}
+
+		&.white {
+			background-color: white;
+
+			h4 {
+				color: $igd_color_purple;
+			}
+
+			p {
+				color: $igd_color_greydark;
+			}
+
+		}
+
+		&.purple {
+			background-color: $igd_color_purple;
+
+			h4,
+			p {
+				color: white;
+			}
+
+		}
+	}
+
+	a:hover .igd-rss-article {
+		background-color: $igd_color_greydark;
+
+		h4,
+		p {
+			color: white;
+		}
+	}
+}

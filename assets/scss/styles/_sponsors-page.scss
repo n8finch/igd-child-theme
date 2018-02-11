@@ -1,0 +1,66 @@
+.sponsors {
+
+	#sponsors-hero {
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 40vw;
+		// padding: 30px;
+		padding: 5% 15%;
+		position: relative;
+		width: 100%;
+
+		h1 {
+			@media (max-width: 400px) {
+				font-size: 28px;
+			}
+
+			color: white;
+			font-size: 52px;
+			font-weight: 500;
+			max-width: 580px;
+
+		}
+
+		a {
+			@media (max-width: 400px) {
+				padding: 10px 20px;
+			}
+
+			background-color: $igd_color_blue;
+			color: white;
+			font-weight: 700;
+			max-width: 230px;
+
+			&:hover {
+				background-color: $igd_color_green;
+			}
+		}
+
+	}
+
+
+	h2 {
+		font-size: 20px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+
+	#sponsors-intro {
+		background-color: $igd_color_sponsorsorange;
+		color: white;
+		font-size: 20px;
+	}
+
+
+	#sponsors-main-content {
+		background-color: white;
+		padding: 5% 15%;
+	}
+
+
+
+}

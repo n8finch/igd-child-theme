@@ -1,0 +1,43 @@
+#presented-by {
+	@media (max-width: 800px) {
+		display: block;
+	}
+
+	align-items: center;
+
+    border-top: 5px solid $igd_color_footerbg;
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+
+	.presented-by-logo {
+		@media (max-width: 800px) {
+			margin-bottom: 20px;
+		}
+
+		max-width: 250px;
+
+		span {
+			color: #676767;
+			font-size: 12px;
+			font-style: italic;
+			font-weight: 500;
+			position: absolute;
+		}
+	}
+
+	.presented-by-content {
+
+		font-size: 11px;
+		font-weight: 500;
+		max-width: 550px;
+		text-transform: uppercase;
+
+		p {
+			margin-bottom: 0;
+		}
+
+	}
+
+
+}

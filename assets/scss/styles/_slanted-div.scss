@@ -1,0 +1,13 @@
+
+.slanted-section {
+		@media (max-width: 400px) {
+			padding: 5% 10%;
+		}
+
+		background-color: $igd_color_green;
+		padding: 5% 15%;
+
+		p {
+			margin: 0;
+		}
+}

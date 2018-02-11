@@ -1,0 +1,149 @@
+footer.site-footer {
+
+	@media (max-width: 800px) {
+		margin-left: 0;
+	}
+
+	display: block;
+	float: none;
+	margin-left: 0;
+	padding: 0 !important;
+	width: 100%;
+}
+
+#igd-footer {
+
+	@media (max-width: 800px) {
+		display: block;
+	}
+
+	background-color: $igd_color_footerbg;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	padding: 30px 50px;
+	text-transform: uppercase;
+
+	& > div {
+		@media (max-width: 800px) {
+			max-width: 100%;
+			margin-bottom: 20px;
+		}
+
+		min-width: 43%;
+		max-width: 50%;
+	}
+
+	.footer-sign-up {
+		@media (max-width: 800px) {
+			justify-content: space-between;
+		}
+
+		display: flex;
+		font-size: 13px;
+		justify-content: space-around;
+
+		.get-email-updates {
+			border-bottom: 1px solid $igd_color_greylight;
+		    height: 30px;
+		    min-width: 65%;
+		    padding: 5px 0 5px;
+		}
+
+		.sign-up-button {
+
+			padding-top: 5px;
+
+			a {
+				background-color: $igd_color_orange;
+				color: white;
+				font-weight: 700;
+				padding: 5px 15px;
+			}
+		}
+	}
+
+	.footer-contact-info {
+
+		font-size: 10px;
+
+		span {
+			font-weight: 700;
+		}
+
+		a {
+			color: $igd_color_orange;
+			font-weight: 700;
+		}
+	}
+}
+
+
+#mc_embed_signup {
+	background: transparent;
+	clear:left;
+	font-size: 13px;
+
+	width:100%;
+
+	div#mc_embed_signup_scroll {
+
+		@media (max-width: 800px) {
+			justify-content: space-between;
+		}
+
+		display: flex;
+		font-size: 13px;
+		justify-content: space-around;
+
+		input {
+			background-color: $igd_color_footerbg;
+			border: none;
+			border-bottom: 1px solid $igd_color_greylight;
+			color: white;
+			height: 30px;
+			min-width: 65%;
+			padding: 5px 0 5px;
+
+			&::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+			    color:    white;
+				font-size: 13px;
+			}
+			&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+			   color:    white;
+			   font-size: 13px;
+			   opacity:  1;
+			}
+			&::-moz-placeholder { /* Mozilla Firefox 19+ */
+			   color:    white;
+			   font-size: 13px;
+			   opacity:  1;
+			}
+			&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+			   color:    white;
+			   font-size: 13px;
+			}
+			&::-ms-input-placeholder { /* Microsoft Edge */
+			   color:    white;
+			   font-size: 13px;
+			}
+
+			&::placeholder { /* Most modern browsers support this now. */
+			   color:    white;
+			   font-size: 13px;
+			}
+		}
+
+		.button {
+			@media (max-width: 800px) {
+
+			}
+			background-color: $igd_color_orange;
+			color: white;
+			font-size: 13px;
+			font-weight: 700;
+			margin-left: 20px;
+			padding: 5px 15px;
+		}
+	}
+}
